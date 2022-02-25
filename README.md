@@ -1,4 +1,16 @@
 # LoRa-Solar-Pump
+<style>
+	<style type="text/css">
+	caption {
+		padding-top: 15px;
+	}
+	.spacer {
+		padding-bottom: 75px;
+	}
+	.spacer1 {
+		padding-bottom: 150px;
+	}
+</style>
 A soil moisture sensor turns a pump on and off with relays but thats not all! The soil moisture data is sent over LoRa to a radio and is all powered through solar!
 <div id="everythingelse">
 			<h1>IoT LoRa Pump for use in Automated Greenhouses</h1>
