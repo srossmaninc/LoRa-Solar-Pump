@@ -14,7 +14,7 @@ A soil moisture sensor turns a pump on and off with relays but thats not all! Th
 				<p>The last little bit of code sends the mDot module instructions and a value to send to the gateway (The value is encoded in UTF-16 to reduce message size because LoRa has incredible range but very little bandwidth). The program then waits 30 seconds before looping back to the top</p>
 			</div>
 			<h3><em>This is how the sent data (UTF-16) is decoded</em></h3>
-			<img src="decoder-resize.png">
+			<img src="decoder-resize.png" style="width: 75%; height: auto;">
 			<p>This decoder function takes a list of UTF-16 characters as one of it's parameters. Using a for loop, the program iterates through the list using the String.fromCharCode() method which converts the UTF-16 character into an ASCII one and adds these values to a variable. The program then returns the word "Decoded: " with the variable that stored the characters attached <br>to the end.</p>
 			<table align="center">
 				<caption>This table is a brief demonstration <br>of how data is encoded and decoded throughout my projects pipeline</caption>
